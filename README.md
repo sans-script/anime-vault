@@ -106,6 +106,18 @@ function AnimeCard({ anime, index }: Prop) {
 export default AnimeCard;
 ```
 
+`MotionDiv.tsx`
+
+```tsx
+"use client";
+
+import { motion } from "framer-motion";
+
+export const MotionDiv = motion.div;
+
+```
+
+
 ### Summary
 
 Next.js 14 enables building robust server-side rendered applications with integrated Server Actions for backend operations, Infinite Scroll for dynamic content loading, and Framer Motion for enhancing user interface interactions with smooth animations. This combination enhances both performance and user experience in modern web applications.
